@@ -1,0 +1,26 @@
+h1:hover{
+    color: white;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+p:hover{
+    color: white;
+    background-color: black;
+}
+
+.box{
+    display: flex;
+
+}
+
+p{
+    margin: 0px 40px 0px 40px;
+}
+
+.box-p, .box-p2{
+    border-right: 2px solid red;
+}
+
