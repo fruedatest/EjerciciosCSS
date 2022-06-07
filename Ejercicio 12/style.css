@@ -1,0 +1,17 @@
+.container{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    outline: green dotted 10px;
+    margin-left: 5px ;
+    margin-right: 5px ;
+
+}
+
+.container:hover{
+
+    background-color: red;
+    outline: black dotted 10px;
+    margin-left: 5px ;
+    margin-right: 5px ;
+}
