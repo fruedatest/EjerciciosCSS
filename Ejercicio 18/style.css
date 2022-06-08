@@ -114,3 +114,63 @@
   
   /* ############################################################## */
  
+  @media only screen and (max-width: 320px) {
+    .main-container {
+      width: 90%;
+    }
+  
+    .orange-container {
+      display: inline-block;
+      width: 100%;
+    }
+  
+    .orange {
+      width: 90%;
+      background-color: orange;
+      height: 50px;
+      margin: 10px;
+    }
+  
+    .green {
+      width: 100%;
+      background-color: rgb(210, 255, 106);
+      height: 60px;
+      margin: 10px;
+    }
+  
+    .green-container {
+      display: flex;
+    }
+  
+    .blue {
+      width: 100%;
+      background-color: rgb(116, 106, 255);
+      height: 100px;
+      margin: 10px;
+    }
+  
+    .blue-container {
+      display: inline-block;
+      width: 100%;
+      
+    }
+
+    .gray-container {
+      visibility: hidden;
+      height: 0px;
+      
+    }
+
+    .gray-container2{
+        visibility: hidden;
+        height: 0px;
+    }
+
+    .gray3 {
+        width: 100%;
+        background-color: rgb(170, 170, 170);
+        height: 30px;
+        margin: 10px;
+      }
+
+  }
