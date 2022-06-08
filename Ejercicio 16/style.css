@@ -1,0 +1,35 @@
+header{
+    background-color: #fe0000;
+    height: 100px;
+    width: 100%;
+}
+
+nav{
+    background-color: #007fff;
+    height: 30px;
+    width: 100%;
+}
+
+section{
+    background-color: #fec6c5;
+    height: 400px;
+    width: 65%;
+    margin-right: 10px;
+}
+
+aside{
+    background-color: #fe80fe;
+    height: 400px;
+    width: 35%;
+    margin-left: 10px;
+}
+
+footer{
+    background-color: #80ff00;
+    height: 30px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+}
