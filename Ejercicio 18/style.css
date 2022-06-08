@@ -1,158 +1,116 @@
 @media only screen and (max-width: 1024px) {
-  .main-container {
-    margin: 1rem;
-    padding: 1rem;
-    width: 100%;
+    .main-container {
+      margin: 1rem;
+      padding: 1rem;
+      width: 100%;
+    }
+  
+    .orange-container {
+      display: flex;
+    }
+  
+    .orange {
+      width: 90%;
+      background-color: orange;
+      height: 50px;
+      margin: 10px;
+    }
+  
+    .green {
+      width: 100%;
+      background-color: rgb(210, 255, 106);
+      height: 250px;
+      margin: 10px;
+    }
+  
+    .green-container {
+      display: flex;
+    }
+  
+    .blue {
+      width: 100%;
+      background-color: rgb(116, 106, 255);
+      height: 100px;
+      margin: 10px;
+    }
+  
+    .blue-container {
+      display: flex;
+    }
+  
+    .gray {
+      width: 100%;
+      background-color: rgb(170, 170, 170);
+      height: 100px;
+      margin: 10px;
+    }
+  
+    .gray-container {
+      display: flex;
+    }
   }
+  
+  /* ############################################################## */
+  
+  @media only screen and (max-width: 768px) {
+    .main-container {
+      width: 90%;
+    }
+  
+    .orange-container {
+      display: inline-block;
+      width: 100%;
+    }
+  
+    .orange {
+      width: 90%;
+      background-color: orange;
+      height: 50px;
+      margin: 10px;
+    }
+  
+    .green {
+      width: 100%;
+      background-color: rgb(210, 255, 106);
+      height: 250px;
+      margin: 10px;
+    }
+  
+    .green-container {
+      display: flex;
+    }
+  
+    .blue {
+      width: 100%;
+      background-color: rgb(116, 106, 255);
+      height: 100px;
+      margin: 10px;
+    }
+  
+    .blue-container {
+      display: inline-block;
+      width: 100%;
+      
+    }
 
-  .orange-container {
-    display: flex;
+    .gray-container {
+      visibility: hidden;
+      height: 0px;
+      
+    }
+
+    .gray-subcontainer2{
+        display: flex;
+    }
+
+    .gray2 {
+        width: 100%;
+        background-color: rgb(170, 170, 170);
+        height: 100px;
+        margin: 10px;
+      }
+
   }
-
-  .orange {
-    width: 90%;
-    background-color: orange;
-    height: 50px;
-    margin: 10px;
-  }
-
-  .green {
-    width: 100%;
-    background-color: rgb(210, 255, 106);
-    height: 250px;
-    margin: 10px;
-  }
-
-  .green-container {
-    display: flex;
-  }
-
-  .blue {
-    width: 100%;
-    background-color: rgb(116, 106, 255);
-    height: 100px;
-    margin: 10px;
-  }
-
-  .blue-container {
-    display: flex;
-  }
-
-  .gray {
-    width: 100%;
-    background-color: rgb(170, 170, 170);
-    height: 100px;
-    margin: 10px;
-  }
-
-  .gray-container {
-    display: flex;
-  }
-}
-
-/* ############################################################## */
-
-@media only screen and (max-width: 768px) {
-  .main-container {
-    width: 90%;
-  }
-
-  .orange-container {
-    display: inline-block;
-    width: 100%;
-  }
-
-  .orange {
-    width: 90%;
-    background-color: orange;
-    height: 50px;
-    margin: 10px;
-  }
-
-  .green {
-    width: 100%;
-    background-color: rgb(210, 255, 106);
-    height: 250px;
-    margin: 10px;
-  }
-
-  .green-container {
-    display: flex;
-  }
-
-  .blue {
-    width: 100%;
-    background-color: rgb(116, 106, 255);
-    height: 100px;
-    margin: 10px;
-  }
-
-  .blue-container {
-    display: inline-block;
-    width: 100%;
-    
-  }
-
-  .gray {
-    width: 100%;
-    background-color: rgb(170, 170, 170);
-    height: 100px;
-    margin: 10px;
-  }
-
-  .gray-container {
-    display: flex;
-    
-  }
-}
-
-/* ############################################################## */
-@media only screen and (max-width: 320px) {
-  .main-container {
-    width: 90%;
-  }
-
-  .orange-container {
-    display: flex;
-  }
-
-  .orange {
-    width: 90%;
-    background-color: orange;
-    height: 50px;
-    margin: 10px;
-  }
-
-  .green {
-    width: 100%;
-    background-color: rgb(210, 255, 106);
-    height: 250px;
-    margin: 10px;
-  }
-
-  .green-container {
-    display: flex;
-  }
-
-  .blue {
-    width: 100%;
-    background-color: rgb(116, 106, 255);
-    height: 100px;
-    margin: 10px;
-  }
-
-  .blue-container {
-    display: flex;
-  }
-
-  .gray {
-    width: 100%;
-    background-color: rgb(170, 170, 170);
-    height: 100px;
-    margin: 10px;
-  }
-
-  .gray-container {
-    display: flex;
-  }
-}
+  
+  /* ############################################################## */
+ 
